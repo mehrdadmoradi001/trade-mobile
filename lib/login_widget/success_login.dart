@@ -4,6 +4,7 @@ import 'package:trade_mobile_flutter/statistics_page.dart';
 class SuccessLogin extends StatelessWidget {
   const SuccessLogin({Key? key}) : super(key: key);
 
+
 //check
   @override
   Widget build(BuildContext context) {
