@@ -7,6 +7,7 @@ class StatisticsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 247, 249, 252),
+      body: (SingleChildScrollView()),
     );
   }
 }
