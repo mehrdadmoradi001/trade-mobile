@@ -15,7 +15,8 @@ class SuccessLogin extends StatelessWidget {
             child: Column(
               children: [
                 Container(
-                  width: 180, height: 300,
+                  width: 180,
+                  height: 300,
                   child: Image(
                     image: AssetImage('images/check.png'),
                   ),
@@ -24,14 +25,22 @@ class SuccessLogin extends StatelessWidget {
                 Text(
                   'موفق شدید',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26,color: Color.fromARGB(255, 41, 48, 77)),
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 26,
+                    color: Color.fromARGB(255, 41, 48, 77),
+                  ),
                 ),
                 SizedBox(height: 6),
                 Text(
                   'حساب شما با موفقیت در برنامه ثبت شد\n از الان میتونین استفاده کنین',
                   textAlign: TextAlign.center,
                   textDirection: TextDirection.rtl,
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w200,color: Color.fromARGB(255, 41, 48, 77),),
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w200,
+                    color: Color.fromARGB(255, 41, 48, 77),
+                  ),
                 ),
                 SizedBox(height: 200),
                 ElevatedButton(
