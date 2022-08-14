@@ -5,6 +5,8 @@ class StatisticsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Color.fromARGB(255, 247, 249, 252),
+    );
   }
 }
