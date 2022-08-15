@@ -71,6 +71,7 @@ class LoginPage extends StatelessWidget {
                   style: TextButton.styleFrom(
                     textStyle:
                         TextStyle(fontWeight: FontWeight.w800, fontSize: 14),
+
                   ),
                 ),
               ],
